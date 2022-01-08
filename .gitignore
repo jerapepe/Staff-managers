@@ -1,0 +1,7 @@
+node_modules
+.env
+.sass-cache
+debug.log
+npm-debug.log
+.DS_Store
+Thumbs.db
