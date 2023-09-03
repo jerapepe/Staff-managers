@@ -1,0 +1,38 @@
+{
+  "name": "project",
+  "version": "0.0.1",
+  "description": "programa gestor de empleados",
+  "main": "src",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "electron",
+    "dev": "cross-env NODE_ENV=development electron src",
+    "rebuild": "electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerapepe/project.git"
+  },
+  "keywords": [
+    "manage",
+    "electron",
+    "employee"
+  ],
+  "author": "jerapepe <ruizpepe402@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jerapepe/project/issues"
+  },
+  "homepage": "https://github.com/jerapepe/project#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.4.6"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^16.0.6",
+    "electron-builder": "^22.14.5",
+    "electron-rebuild": "^3.2.5"
+  }
+}
